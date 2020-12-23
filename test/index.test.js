@@ -182,7 +182,7 @@ describe('local development gas-client server', () => {
           id: expect.stringMatching(/^\w{8}-\w{4}-\w{4}-\w{4}-\w{12}$/), // just simple check this is a uuid
           type: 'REQUEST',
         }),
-        'http://localhost'
+        '*'
       );
     });
 
