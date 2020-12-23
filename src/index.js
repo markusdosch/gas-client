@@ -106,8 +106,7 @@ export default class Server {
                   functionName,
                   args: [...args],
                 },
-                // only send messages to our dev server, which should be running on the same origin
-                window.location.origin
+                "*"
               );
               return promise;
             };
