@@ -11,10 +11,10 @@
   "author": "Elisha Nuchi",
   "license": "MIT",
   "scripts": {
-    "prepack": "yarn build",
+    "prepack": "npm run build",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
-    "prebuild": "yarn test",
+    "prebuild": "npm run test",
     "build": "babel src/index.js -d build"
   },
   "bugs": {
